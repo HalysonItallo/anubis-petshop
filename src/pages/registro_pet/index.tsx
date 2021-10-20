@@ -1,6 +1,5 @@
-import SideBar  from "../components/SideBar"
+import SideBar  from "../components/SideBarClient"
 import { ContainerStyle, SelectStyle } from "../../styles/global"
-//import { RegisterPageStyle} from "../../styles/pages/RegisterPage"
 
 export default function RegisterPet() {
   return(

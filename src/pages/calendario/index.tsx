@@ -1,4 +1,4 @@
-import SideBar  from "../components/SideBar"
+import SideBar  from "../components/SideBarClient"
 import { ContainerStyle, SelectStyle } from "../../styles/global"
 import { CalendarStyle } from "../../styles/pages/Calendar"
 
@@ -34,7 +34,7 @@ export default function Calendar() {
                 <p>14:00</p>
                 <p>Avenida 1</p>
               </div>
-            </div>
+            </div>s
           </div>
         </CalendarStyle>
       </ContainerStyle>
