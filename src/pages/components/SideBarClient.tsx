@@ -1,8 +1,15 @@
 import { SideBarStyle } from "../../styles/components/SideBar";
 import { FiLogOut } from "react-icons/fi"
 import PhotoPerfil from "../../assets/photo-perfil.svg"
+import router from "next/router";
 
 export default function SideBar() {
+
+  const handleLogout = () => {
+    localStorage.clear();
+    router.push("/");
+  }
+
   return(
       <SideBarStyle>
         <h1>NUBIS PET</h1>
@@ -10,30 +17,19 @@ export default function SideBar() {
           <PhotoPerfil />
         </a>
         <div className="content-sidebar">
-
           <p>Bem Vindo,  Sr(a). Nome</p>
           <hr />
-          <a href="registro_pet">
+          <a href="registro-pet">
             <p>Registrar Pet</p>
           </a>
           <hr />
-          <a href="marcar_banho_tosa">
-            <p>Marcar Banho e Tosa</p>
-          </a>
-          <hr />
-          <a href="marcar_vacina">
-            <p>Marcar Vacina</p>
-          </a>
-          <hr />
-          <a href="calendario">
-            <p>Calendário</p>
-          </a>
-          <hr />
-          <a href="agendar_consulta">
+          <a href="agendar-consulta">
             <p>Agendar Consulta</p>
           </a>
         </div>
-        <FiLogOut size={64} color="#111"/>
+        <button onClick={handleLogout}>
+          <FiLogOut size={64} color="#111"/>
+        </button>
       </SideBarStyle>
   )
 }

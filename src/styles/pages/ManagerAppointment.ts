@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ManagerEmployeeStyle = styled.div`
+export const ManagerAppointmentStyle = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -34,14 +34,31 @@ export const ManagerEmployeeStyle = styled.div`
     flex-direction: row;
     margin-bottom: 10px;
     justify-content: space-between;
+    align-items: baseline;
   }
 
-  a {
+  .item-button {
     text-decoration: none;
-    color: ${props => props.theme.colors.primary};
+  }
+
+  .accept {
+    color: #4AA96C;
+  }
+
+  .reject {
+    color: #FF0000;
   }
 
   button {
-    width: 40%;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  h1 {
+    margin-bottom: 20px;
   }
 `

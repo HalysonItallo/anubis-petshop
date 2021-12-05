@@ -34,7 +34,7 @@ export default function Calendar() {
                 <p>14:00</p>
                 <p>Avenida 1</p>
               </div>
-            </div>s
+            </div>
           </div>
         </CalendarStyle>
       </ContainerStyle>

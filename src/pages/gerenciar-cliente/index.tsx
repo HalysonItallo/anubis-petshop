@@ -1,41 +1,51 @@
 import SideBar  from "../components/SideBarManager"
 import { ContainerStyle } from "../../styles/global"
-import { ManagerEmployeeStyle } from "../../styles/pages/ManagerEmployee"
+import { ManagerClientStyle } from "../../styles/pages/ManagerClient"
 
-export default function ManagerEmployee() {
+export default function ManagerClient() {
   return(
     <>
       <SideBar />,
       <ContainerStyle>
-        <ManagerEmployeeStyle>
-          <h1>Gerenciar Funcionários</h1>
-          <button>Adicionar</button>
+        <ManagerClientStyle>
+          <h1>Gerenciar Cliente</h1>
           <div className="content-form">
             <div className="show-content">
               <div className="itens-show">
-                <p>Dr.(a) Dolittle</p>
+                <p>Kirito</p>
                 <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
-                <p>Dr.(a) Dolittle</p>
+                <p>Kirito</p>
                 <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
-                <p>Dr.(a) Dolittle</p>
+                <p>Kirito</p>
                 <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
-                <p>Dr.(a) Dolittle</p>
+                <p>Kirito</p>
                 <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
-                <p>Dr.(a) Dolittle</p>
+                <p>Kirito</p>
                 <a href=""><p>Verificar</p></a>
               </div>
-              <a href=""><p>Pag 1</p></a>
+              <div className="itens-show">
+                <p>Kirito</p>
+                <a href=""><p>Verificar</p></a>
+              </div>
+              <div className="itens-show">
+                <p>Kirito</p>
+                <a href=""><p>Verificar</p></a>
+              </div>
+              <div className="itens-show">
+                <p>Kirito</p>
+                <a href=""><p>Verificar</p></a>
+              </div>
             </div>
           </div>
-        </ManagerEmployeeStyle>
+        </ManagerClientStyle>
       </ContainerStyle>
     </>
   )

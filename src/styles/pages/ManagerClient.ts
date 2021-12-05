@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ManagerEmployeeStyle = styled.div`
+export const ManagerClientStyle = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -12,7 +12,6 @@ export const ManagerEmployeeStyle = styled.div`
   }
 
   .show-content  {
-    background-color: red;
     width: 100%;
     margin-top: 20px;
     padding: 20px;

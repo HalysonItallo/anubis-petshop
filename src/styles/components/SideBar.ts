@@ -20,15 +20,25 @@ export const SideBarStyle = styled.nav`
     height: 50%;
     display:  flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
 
   .content-sidebar hr {
    border: 1px solid ${props => props.theme.colors.background};
+   margin: 10px 0;
   }
 
   a {
     text-decoration: none;
     color: ${props => props.theme.colors.background};
+  }
+  a #active {
+    color: ${props => props.theme.colors.colorText};
+  }
+
+  button{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
   }
 `

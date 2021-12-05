@@ -18,10 +18,11 @@ export const AttendanceStyle = styled.div`
     padding: 20px;
     background-color: #C4C4C4;
     border-radius: 15px;
-    height: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
   }
 
   .itens-show {

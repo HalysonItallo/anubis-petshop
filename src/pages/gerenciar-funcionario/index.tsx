@@ -1,39 +1,40 @@
 import SideBar  from "../components/SideBarManager"
 import { ContainerStyle } from "../../styles/global"
-import { AttendanceStyle } from "../../styles/pages/Attendance"
+import { ManagerEmployeeStyle } from "../../styles/pages/ManagerEmployee"
 
-export default function Attendance() {
+export default function ManagerEmployee() {
   return(
     <>
       <SideBar />,
       <ContainerStyle>
-        <AttendanceStyle>
-          <h1>Atendimento</h1>
+        <ManagerEmployeeStyle>
+          <h1>Gerenciar Funcionários</h1>
+          <button>Adicionar</button>
           <div className="content-form">
             <div className="show-content">
               <div className="itens-show">
                 <p>Dr.(a) Dolittle</p>
-                <a href=""><p>Formulário</p></a>
+                <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
                 <p>Dr.(a) Dolittle</p>
-                <a href=""><p>Formulário</p></a>
+                <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
                 <p>Dr.(a) Dolittle</p>
-                <a href=""><p>Formulário</p></a>
+                <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
                 <p>Dr.(a) Dolittle</p>
-                <a href=""><p>Formulário</p></a>
+                <a href=""><p>Verificar</p></a>
               </div>
               <div className="itens-show">
                 <p>Dr.(a) Dolittle</p>
-                <a href=""><p>Formulário</p></a>
+                <a href=""><p>Verificar</p></a>
               </div>
             </div>
           </div>
-        </AttendanceStyle>
+        </ManagerEmployeeStyle>
       </ContainerStyle>
     </>
   )
